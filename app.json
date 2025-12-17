@@ -1,4 +1,18 @@
 {
-  "name": "DailyMotivationApp",
-  "displayName": "DailyMotivationApp"
+  "expo": {
+    "name": "Daily Motivation",
+    "slug": "daily-motivation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/DailyMotivationAppIcon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFDFC"
+    },
+    "android": {
+      "package": "com.asaskiap.dailymotivation",
+      "versionCode": 1
+    }
+  }
 }
